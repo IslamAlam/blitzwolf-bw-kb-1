@@ -1,4 +1,5 @@
 # Blitzwolf BW-KB1 Firmware Reverse Engineering
+
 It is based on the wor on DK63 from smp4488.
 
 PID 
@@ -58,6 +59,10 @@ Use this information at your own risk. I'm not liable if you break something.
 
 ## Key Matrix & MCU
 
+[Keyboard Layout www.keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/##@_name=BlitzWolf%C2%AEBW-KB1%20Bluetooth%20V5.0%20RGB%2063%20Key%20Mechanical%20Keyboard&author=Islam%20Mansour&switchMount=cherry&switchBrand=gateron&switchType=KS-3-Tea&pcb:true%3B&@=Esc&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_w:2%3B&=Backspace%3B&@_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C%3B&@_w:1.75%3B&=Caps%20Lock&=A&=S&=D&=F&=G&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&_w:1.75%3B&=Shift&=%E2%86%91&=%3F%0A%2F%2F%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:6.25%3B&=&_a:4%3B&=Alt&=Fn&=%E2%86%90&=%E2%86%93&=%E2%86%92)
+
+![Keyboard-layout](./img/BW-KB1-Keyboard-layout.png)
+
 ![Key-Matrix](./img/BW-KB1-Wiring.png)
 
 ![Key-Matrix-MCU-Pins](./img/BW-KB1-Wiring-MCU-Pins.png)
@@ -66,7 +71,7 @@ Use this information at your own risk. I'm not liable if you break something.
 
 ![BW-KB1-Keyboard-PCB](./img/BW-KB1-Keyboard-PCB.png)
 
-![BW-KB1-Bluetooth-CYW20730](./img/BW-KB1-Bluetooth-CYW20730.png
+![BW-KB1-Bluetooth-CYW20730](./img/BW-KB1-Bluetooth-CYW20730.png)
 
 
 
