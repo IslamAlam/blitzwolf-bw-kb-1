@@ -51,10 +51,24 @@ Use this information at your own risk. I'm not liable if you break something.
 ## Evision VS11K09A-1 Debug Recovery Mode / SWD
 
 1. Hookup SWCLK, SWDIO, and Ground using the testpoints outlined below
-    ![connections](https://raw.githubusercontent.com/smp4488/dk63/master/photos/IMG_0276-marked.jpg)
+    ![connections](./img/BW-KB1-Wiring-MCU-SWD.png)
     * Note: These pins are being use by the MCU to control functionality. Im tyring to enable SWD in the default firmware to debug without Debug Recovery Mode.
 2. Hookup the other ends of the wires to your debugger. I used a Raspberry PI 3 and the ST-Link V2.
 3. Using the ground point hold the boot pin to ground while turning on the power.
+
+## Key Matrix & MCU
+
+![Key-Matrix](./img/BW-KB1-Wiring.png)
+
+![Key-Matrix-MCU-Pins](./img/BW-KB1-Wiring-MCU-Pins.png)
+
+![MCU-Pins](./img/MCU_SN32F248BF.png)
+
+![BW-KB1-Keyboard-PCB](./img/BW-KB1-Keyboard-PCB.png)
+
+![BW-KB1-Bluetooth-CYW20730](./img/BW-KB1-Bluetooth-CYW20730.png
+
+
 
 ## LEDs
 
