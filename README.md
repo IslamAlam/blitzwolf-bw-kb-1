@@ -181,3 +181,4 @@ QMK Nuvoton Port PR
 * https://interrupt.memfault.com/blog/cortex-m-fault-debug#registers-prior-to-exception
 * https://github.com/bnahill/PyCortexMDebug
 * http://zuendmasse.de/blog/2018/01/21/gdb-+-svd/
+* https://mcuoneclipse.com/2018/01/27/converting-a-raw-binary-file-into-an-elf-dwarf-file-for-loading-and-debugging/
