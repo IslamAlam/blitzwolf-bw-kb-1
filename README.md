@@ -182,3 +182,4 @@ QMK Nuvoton Port PR
 * https://github.com/bnahill/PyCortexMDebug
 * http://zuendmasse.de/blog/2018/01/21/gdb-+-svd/
 * https://mcuoneclipse.com/2018/01/27/converting-a-raw-binary-file-into-an-elf-dwarf-file-for-loading-and-debugging/
+* https://mcuoneclipse.com/2019/05/26/reverse-engineering-of-a-not-so-secure-iot-device/
