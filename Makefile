@@ -6,6 +6,9 @@ openocd-remote:
 	# "openocd.exe" "-c" "gdb_port 3333" "-s" "C:\Users\smplman\projects\qmk_firmware-19" "-f" "C:\Users\smplman\projects\dk63\stlink.cfg" "-f" "C:\Users\smplman\projects\dk63\vs11k09a-1.cfg"
 	./xpack-openocd-0.10.0-15/bin/openocd -c "bindto 0.0.0.0" -f ./xpack-openocd-0.10.0-15/scripts/interface/stlink-v2.cfg -f ./vs11k09a-1.cfg
 
+openocd-remote-stlink:
+	# "openocd.exe" "-c" "gdb_port 3333" "-s" "C:\Users\smplman\projects\qmk_firmware-19" "-f" "C:\Users\smplman\projects\dk63\stlink.cfg" "-f" "C:\Users\smplman\projects\dk63\vs11k09a-1.cfg"
+	./xpack-openocd-0.10.0-15/bin/openocd -c "bindto 0.0.0.0" -f interface/stlink.cfg -f ./vs11k09a-2.cfg
 
 
 # start openocd
