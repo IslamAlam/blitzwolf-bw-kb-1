@@ -2,9 +2,15 @@
 
 It is based on the wor on DK63 from smp4488.
 
-PID 
+VID 0x05AC
 
-VID
+PID 0x024F
+
+VID 0C45 is not used for this keyboard therefore for uploading the firmware via USB interface, it is needes to update the VIC and PID to the above.
+
+For default flashing: Bus 001 Device 006: ID 0c45:7044 Microdia.
+
+For keyboard: Bus 001 Device 009: ID 05ac:024f Apple, Inc. 
 
 This project is to reverse engineer the Kmove / DIERYA DK63 to get QMK running on it.
 Use this information at your own risk. I'm not liable if you break something.
