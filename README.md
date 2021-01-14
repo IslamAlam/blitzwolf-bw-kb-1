@@ -10,6 +10,9 @@ VID 0C45 is not used for this keyboard therefore for uploading the firmware via 
 
 For default flashing: Bus 001 Device 006: ID 0c45:7044 Microdia.
 
+or                    Bus 001 Device 011: ID 0c45:7040 Microdia
+
+
 For keyboard: Bus 001 Device 009: ID 05ac:024f Apple, Inc. 
 
 This project is to reverse engineer the Kmove / DIERYA DK63 to get QMK running on it.
