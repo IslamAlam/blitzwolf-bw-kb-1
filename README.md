@@ -52,6 +52,23 @@ Use this information at your own risk. I'm not liable if you break something.
     - [ ] Bluetooth `PAR2801QN-GHVC` [docs](https://docs.qmk.fm/#/feature_bluetooth)
 - [x] Dump origional bootloader
 
+## Flashing
+
+- Download this flashing software for windows: 
+[SONiX_USB_MCU_ISP_Tool_V2.3.1.7-.zip](https://github.com/qmk/qmk_firmware/files/5862715/SONiX_USB_MCU_ISP_Tool_V2.3.1.7-.zip)
+
+- Put your keyboard in boot/recovery/flash mode via connecting boot pin to ground before connecting the keyboard via USB.
+
+- Then flash the binary via the software after setting the following configuration: 
+
+![image](https://user-images.githubusercontent.com/4381819/105637448-e3217900-5e6d-11eb-879d-af86b59ca26b.png)
+![image](https://user-images.githubusercontent.com/4381819/105639608-9fcd0780-5e79-11eb-9c6d-41fb488c56d2.png)
+![image](https://user-images.githubusercontent.com/4381819/105639625-b2dfd780-5e79-11eb-9733-c824f6f7f6d5.png)
+![image](https://user-images.githubusercontent.com/4381819/105639652-d2770000-5e79-11eb-819b-146b04802528.png)
+
+
+
+
 ## Chips
 
 * Main MCU - EVision [VS11K09A-1](http://evision.net.cn/include/upload/kind/file/20190413/20190413174647_5965.pdf), Seems to be based on the [Sonix SN32F248BF](http://www.sonix.com.tw/files/1/9BB2674D32FB0D70E050007F01007532)
